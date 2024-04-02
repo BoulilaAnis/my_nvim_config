@@ -17,4 +17,6 @@ vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.wo.number = true
 
 
-
+vim.cmd([[
+  autocmd FileType python nnoremap <buffer> <leader>r :w<CR>:belowright split term://python3 %<CR>:resize 10<CR>
+]])
