@@ -1,20 +1,15 @@
 # this is my neovim config
-
-### colorscheme
+---
+- > ### colorscheme
 my colorscheme is [**gruvbox**](https://github.com/ellisonleao/gruvbox.nvim) i love it.
-
-
-### fuzzy finder 
+- > ### fuzzy finder 
 I use [**telescope**](https://github.com/nvim-telescope/telescope.nvim) as fuzzy finder.
-
-### package manager
+- > ### package manager
 in my neovim config i use [**LazyVim**](https://github.com/LazyVim/LazyVim) as package manager
 
-
+---
 # plugins
-
 > all plugins in **nvim/lua/plugins** diractory
-
 - autopairs.lua
 - colorscheme.lua
 - completions.lua
